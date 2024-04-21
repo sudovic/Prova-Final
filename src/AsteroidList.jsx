@@ -15,7 +15,7 @@ const AsteroidList = () => {
     const apiKey = 'eBHz84yxmTQ2uLzqbN9IoPtjHA1bb1uJ1KWi4ajR';
     const dataAtual = new Date().toISOString().split('T')[0];
     try {
-      const response = await axios.get(`https://api.nasa.gov/neo/rest/v1/feed?start_date=${dataAtual}&api_key=${apiKey}`);
+      const response = await axios.get(`https://api.nasa.gov/neo/rest/v1/feed?start_date=${dataAtual}&end_date=${dataAtual}&api_key=${apiKey}`);
       const asteroidData = Object.values(response.data.near_earth_objects).flat();
       setAsteroids(asteroidData);
     } catch (error) {
