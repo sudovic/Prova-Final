@@ -1,0 +1,173 @@
+body {
+    background-image: url('./img/asteroid.jpg');
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.box {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.scroll-to-top:hover {
+    background-color: #0056b3;
+}
+
+.containerdetail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.box {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.detailtxt {
+    color: #333;
+}
+
+.detailtxt h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btnback {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btnback:hover {
+    background-color: #4391e4;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; 
+    background-color: #eaebec;
+    padding: 10px 0;
+    width: 100%;
+    
+  }
+
+  .menubtn {
+    font-size: 18px;
+    font-family: Arial, sans-serif; 
+    font-weight: bold; 
+    cursor: pointer;
+    position: relative;
+    width: 190px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 25px; 
+    color: black;
+    background-color: #f0f0f0; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease; 
+    
+    
+      
+  }
+  
+  .menu-item {
+    padding: 10px 20px;
+    margin: 0 10px;
+    color: #333; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; 
+  }
+  
+  .menu-item:hover {
+    color: #007bff; 
+  }
+
+
+  .foto{
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+  }
+ 
+ .meuNome {
+    color: whitesmoke;
+ }
+
+ .container {
+    align-items: center;
+ }
+
+ .sobreLuan {
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.8;
+    
+
+    
+ }
+
+ .boxLuan {
+    background-color: grey;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+  
